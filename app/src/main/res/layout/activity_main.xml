@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <TextView android:text="Music Palyer" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:textSize="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="80dp"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_height="250dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/musicimage"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+
+       />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginLeft="100dp">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PLAY"
+        android:id="@+id/play"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PAUSE"
+        android:id="@+id/pause"
+        android:layout_marginLeft="10dp"
+         />
+
+
+</LinearLayout>
+
+</LinearLayout>
